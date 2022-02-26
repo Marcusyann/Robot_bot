@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #222222;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section_title {
+    font-weight: 700;
+    color: #65DAFF;
+    font-size: 30px;
+}
+
+.section_text {
+    font-weight: 300px;
+    font-size: 20px;
+    color: gray;
+    line-height: 20px;
+}
+
+
+.nav_menu_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_nav_menu a {
+    color: white;
+    text-decoration: none;
+    line-height: 80px;
+    display: inline-block;
+}
+
+.left_nav_menu span {
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.nav_item {
+    color: white;
+    text-decoration: none;
+    line-height: 80px;
+    margin-left: 15px;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.nav_item:hover {
+    color: #65DAFF;
+}
+
+.nav_menu {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: #222222;
+
+}
+
+
+.header {
+    background-image: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+}
+
+.header_content h1 {
+    margin-left: 20px;
+    font-size: 90px;
+    font-weight: 900;
+    color: #4E4E4E;
+    margin-bottom: 50px;
+}
+
+.header_content p {
+    margin-left: 20px;
+    font-size: 50px;
+    color: #4E4E4E;
+    margin-bottom: 50px;
+}
+
+.header_content a {
+    margin-left: 20px;
+    background: linear-gradient(45deg, #65DAFF, #e5e1d6);
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 30px 600px 30px 80px;
+    width: fit-content;
+
+    transition: 0.1s;
+}
+
+.header_content a:hover {
+    transform: scaleY(1.3)
+}
+
+
+.about {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.about_item {
+    display: inline-block;
+    vertical-align: bottom;
+    height: 200px;
+    width: 150px;
+    color: #65DAFF;
+    margin: 100px 44px 0px 44px;
+
+}
+
+.about img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 25px;
+}
+
+.gaming  {
+/*    width: 65%;*/
+/*    margin: 0 auto;*/
+}
+
+.gaming .game_title {
+    margin: 0px auto;
+    width: 300px;
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.gaming_content h2 {
+    color: #65DAFF;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.gaming_content{
+    width: 100%;
+     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+.game {
+    display: flex;
+}
+
+.game h3 {
+    display: inline-block;
+    color: greenyellow;
+    padding: 15px 0px;
+    text-align: left;
+    border-bottom: 1px solid;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.game_text {
+    padding: 10px 20px;
+    width: 50%;
+        
+}
+
+.game p {
+    color: gray;
+    height: 100px;
+    /*    display: inline-block;*/
+    text-align: left;
+    /*
+    margin-left: -95px;
+    margin-top: 70px;
+*/
+    line-height: 25px;
+}
+
+
+.game_img{
+    width: 50%;
+}
+
+.game_img img{
+    width: 100%;
+}
+
+
+
+.we {
+    margin: 70px;
+    text-align: center;
+}
+
+.we_content h2 {
+    color: #65DAFF;
+    margin-bottom: 40px;
+}
+
+.we_content p {
+    color: gray;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.discord_content {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    padding-bottom: 30px;
+}
+
+
+.discord_title {
+    color: #65DAFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.discord_content h2 {
+    color: #65DAFF;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.discord_content hr {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px white solid;
+}
+
+.rejestr {
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 50px 0;
+    background-color: #65DAFF;
+}
+
+.rejestr p {
+    margin-left: 60px;
+    margin-top: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+.rejestr_button {
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 50px;
+    color: white;
+    background: black;
+    margin-right: 60px;
+}
+
+footer {
+    height: 30px;
+}

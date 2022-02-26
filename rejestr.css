@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #222222;
+}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #65DAFF;
+}
+
+header h3 {
+    color: white;
+    margin: 0 auto
+}
+
+.back {
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+.back:hover {
+    color: white;
+    background: #65DAFF;
+    transform: scaleY(1.1);
+}
+
+.form {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+.form_body legend {
+    color: white;
+    margin-left: 50px;
+}
+
+.form_body fieldset {
+    margin: 0 auto;
+    width: 95%;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.form_body .name {
+    margin: 20px 0px 25px 25px;
+    background-color: #222222;
+    border-bottom: 1px white solid;
+    width: 95%;
+}
+
+
+
+.form_body .surname {
+    margin: 20px 0px 25px 25px;
+    background-color: #222222;
+    border-bottom: 1px white solid;
+    width: 95%;
+}
+
+.gendr {
+    color: white;
+    margin-left: 25px;
+}
+
+#gender1 {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gender2 {
+    margin-left: 30px;
+}
+
+.genders {
+    color: white;
+    margin-left: 10px;
+}
+
+#osiem {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.osiem {
+    color: white;
+    margin-left: 10px;
+}
+
+.options {
+    color: white;
+    margin-left: 25px;
+}
+
+#options {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    margin-left: 25px;
+    border: 1px solid white;
+    background: #222222;
+    width: 95%;
+    height: 150px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.footer_button {
+    color: white;
+    text-decoration: none;
+    padding: 25px 90px;
+    background: linear-gradient(45deg, #65DAFF, #70FFCB);
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-left: 50%;
+    transform: translate(-50%, -0%);
+
+    transition: 0.8s;
+}
+
+.footer_button:hover {
+    background: linear-gradient(45deg, #70FFCB, #65DAFF);
+}
